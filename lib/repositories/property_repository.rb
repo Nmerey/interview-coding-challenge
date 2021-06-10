@@ -1,5 +1,4 @@
 require 'json_reader'
-require 'booking_service'
 
 class PropertyRepository
   Property = Struct.new(:id, :title)
